@@ -8,4 +8,6 @@ The technical part (coding, understanding how stuffs work) is given by [David O'
 Chiptuner-0.6.2 collection is available for free. Feel free to download it, use it, redistribute it as you will.
 If you are thinking to earn some money from it, please at least drop me a message and say "thank you"! I'd appreciate it!
 
+If something is wrong or not working properly, please let me know!
+
 Have fun!
