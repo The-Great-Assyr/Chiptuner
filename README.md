@@ -8,8 +8,11 @@ The technical part (coding, understanding how stuffs work) is given by [David O'
 The fonts I have used are all free and freely downloadable from these sites (or from my repo):
 
 [DFF](https://www.download-free-fonts.com/details/36131/karmatic-arcade)
+
 [FONTS4FREE](https://www.fonts4free.net/visitor-font.html)
+
 [STYLE64](http://style64.org/c64-truetype)
+
 [DAFONT](https://www.dafont.com/commodore-64.font)
 
 Ditto for the pictures I have used in my plates.
