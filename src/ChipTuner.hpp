@@ -8,6 +8,7 @@ extern Plugin *plugin;
 
 // Forward-declare each Model, defined in each module source file
 extern Model *modelBlank_1HP;
+extern Model *modelBlank_2HP;
 extern Model *modelBlank_3HP;
 extern Model *modelBlank_4HP;
 extern Model *modelBlank_6HP;

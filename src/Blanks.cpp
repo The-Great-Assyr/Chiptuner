@@ -1,7 +1,7 @@
 #include "ChipTuner.hpp"
 
 struct BlankBaseWidget : ModuleWidget {
-	static constexpr int LISTSIZE = 2;
+	static constexpr int LISTSIZE = 3;
 	int selected = 0;
 	std::string fileName[LISTSIZE];
 	BitMap *bmp;
@@ -64,6 +64,11 @@ void BlankBaseWidget::appendContextMenu(Menu *menu) {
 	m->value = 1;
 	m->rightText = CHECKMARK(selected==m->value);
 	menu->addChild(m);
+	m = MenuItem::create<BitmapMenuItem>("Extreme");
+	m->w = this;
+	m->value = 2;
+	m->rightText = CHECKMARK(selected==m->value);
+	menu->addChild(m);	
 }
 
 template<int x>
@@ -71,6 +76,7 @@ struct BlankWidget : BlankBaseWidget {
 	BlankWidget(Module *module) : BlankBaseWidget(module) {
 		fileName[0] = FileName("res/8Bit_%dHP.png", x);
 		fileName[1] = FileName("res/8Bit_Alt_%dHP.png", x);
+		fileName[2] = FileName("res/8Bit_Ext_%dHP.png", x);		
 		box.size = Vec(RACK_GRID_WIDTH * x, RACK_GRID_HEIGHT);
 		loadBitmap();
 	}
@@ -78,6 +84,7 @@ struct BlankWidget : BlankBaseWidget {
 
 #define MODEL(x) Model *modelBlank_##x##HP = Model::create<Module, BlankWidget<x>>("ChipTuner", "Blank " #x "HP", #x "HP Blanking Plate", BLANK_TAG);
 MODEL(1)
+MODEL(2)
 MODEL(3)
 MODEL(4)
 MODEL(6)
