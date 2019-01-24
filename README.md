@@ -30,4 +30,10 @@ Yeah, because it takes a really hard core gamer to spot the loving obeisance to 
 
 If something is wrong or not working properly, please let me know!
 
-Have fun!
+So far (January 2019) I still haven't figured out how to compile for Mac or GNU/Linux but some users from the **Official VCV Rack Group** on Facebook told me that the source files are ok and they have been able to compile the plugin for Mac (there is a downloadable version here made by [Nik Jewell](https://github.com/lnikj) so if you can compile it for Mac or GNU/Linux and want to:
+1) explain me how to share your file here
+2) send me your zip file so that I can slap it here (with the dued credits, of course!)
+
+That's totally appreciated! Thanks in advance!
+
+Have fun and keep twisting those knobs! :-P
