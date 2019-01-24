@@ -17,10 +17,12 @@ The fonts I have used are all free and freely downloadable from these sites (or 
 
 Ditto for the pictures I have used in my plates.
 
-Chiptuner-0.6.2 2019 Edition is available for free. Feel free to download it, use it, redistribute it as you will.
+Chiptuner-0.6.2 **2019 Seamless Edition** is available for free. Feel free to download it, use it, redistribute it as you will.
 If you are thinking to earn some money from it, please at least drop me a message and say "thank you"! I'd appreciate it!
 
-I made some correction in the PNGs files, added the 2HP panel and added a whole new series of panels you can find under the menu "Extreme" when you rightclick on panel: basically there are 3 choiches now, BASE, ALTERNATIVE and EXTREME (the first row of panels is the base one, the second row are the alternative, the third one are the extreme)
+I made some correction in the PNGs files, added the 2HP panel and added a whole new series of panels you can find under the menu "Extreme" when you rightclick on panel: basically there are 3 choiches now, BASE, ALTERNATIVE and EXTREME (the first row of panels is the base one, the second row are the alternative, the third one are the extreme).
+
+The **Seamless Edition** got some backgrounds made seamless (meh) so that the panels can be added and the overall look is way more pleasant!
 
 Oh, and put a couple of reference for old C64 gamers like me! If you spotted it and recognized it, drop me a line here or in the VCV RACK group in Facebook! I will be very pleased to meet another hard core gamer!
 
