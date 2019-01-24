@@ -24,6 +24,8 @@ I made some correction in the PNGs files, added the 2HP panel and added a whole 
 
 The **Seamless Edition** got some backgrounds made seamless (meh) so that the panels can be added and the overall look is way more pleasant!
 
+![](infos/Clipboard01.jpg)
+
 Oh, and put a couple of reference for old C64 gamers like me! If you spotted it and recognized it, drop me a line here or in the VCV RACK group in Facebook! I will be very pleased to meet another hard core gamer!
 
 Yeah, because it takes a really hard core gamer to spot the loving obeisance to the fabulous era of C64 games so my best compliment to Peraza Santiago that has been able to spot the first one! Yay!
