@@ -11,7 +11,9 @@ struct BlankBaseWidget : ModuleWidget {
 		return assetPlugin(pluginInstance, workingSpace);
 	}
 
-	BlankBaseWidget(Module *module) : ModuleWidget(module) { }
+	BlankBaseWidget(Module *module) : ModuleWidget() {
+		setModule(module);
+	}
 	void appendContextMenu(Menu *menu) override;
 	void loadBitmap() {
 		bmp = createWidget<BitMap>(Vec(0,0));
