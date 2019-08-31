@@ -53,18 +53,18 @@ struct BitmapMenuItem : MenuItem {
 };
 
 void BlankBaseWidget::appendContextMenu(Menu *menu) {
-	menu->addChild(MenuEntry::create());
+	menu->addChild(new MenuEntry);
 	BitmapMenuItem *m = createMenuItem<BitmapMenuItem>("Base");
 	m->w = this;
 	m->value = 0;
 	m->rightText = CHECKMARK(selected==m->value);
 	menu->addChild(m);
-	m = MenuItem::create<BitmapMenuItem>("Alternative");
+	m = createMenuItem<BitmapMenuItem>("Alternative");
 	m->w = this;
 	m->value = 1;
 	m->rightText = CHECKMARK(selected==m->value);
 	menu->addChild(m);
-	m = MenuItem::create<BitmapMenuItem>("Extreme");
+	m = createMenuItem<BitmapMenuItem>("Extreme");
 	m->w = this;
 	m->value = 2;
 	m->rightText = CHECKMARK(selected==m->value);
