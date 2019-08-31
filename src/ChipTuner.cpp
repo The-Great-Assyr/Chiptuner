@@ -1,11 +1,11 @@
 #include "ChipTuner.hpp"
 
 
-Plugin *plugin;
+Plugin *pluginInstance;
 
 
 void init(rack::Plugin *p) {
-	plugin = p;
+	pluginInstance = p;
 
 	// Add all Models defined throughout the plugin
 	p->addModel(modelBlank_1HP);
