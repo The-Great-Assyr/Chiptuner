@@ -49,7 +49,7 @@ struct BlankBaseWidget : ModuleWidget {
 struct BitmapMenuItem : MenuItem {
 	BlankBaseWidget *w;
 	int value;
-	void onAction(EventAction &e) override {
+	void onAction(const event::Action &e) override {
 		w->setBitmap(value);
 	}
 };
