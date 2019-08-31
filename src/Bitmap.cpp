@@ -41,23 +41,23 @@ std::shared_ptr<MFTexture> MFTextureList::load(NVGcontext *vg, std::string fileN
 
 MFTextureList gTextureList;
 
-void BitMap::DrawImage(NVGcontext *vg) {
+void BitMap::DrawImage(const DrawArgs &args) {
 	if (!loaded) {
 		loaded = true;
-		bitmap = gTextureList.load(vg, path, 0);
+		bitmap = gTextureList.load(args.vg, path, 0);
 		if (!bitmap->image)
 			warn("ChipTuner: Unable to load %s", path.c_str());
 	}
 	if (!bitmap->image)
 		return;	
-	NVGpaint paint = nvgImagePattern(vg, 0, 0, box.size.x, box.size.y, 0.0f, bitmap->image, 1.0f);
-	nvgFillPaint(vg, paint);
-	nvgBeginPath(vg);
-	nvgRect(vg, 0, 0, box.size.x, box.size.y);
-	nvgFill(vg);
+	NVGpaint paint = nvgImagePattern(args.vg, 0, 0, box.size.x, box.size.y, 0.0f, bitmap->image, 1.0f);
+	nvgFillPaint(args.vg, paint);
+	nvgBeginPath(args.vg);
+	nvgRect(args.vg, 0, 0, box.size.x, box.size.y);
+	nvgFill(args.vg);
 	
 }
-void BitMap::draw(NVGcontext *vg) {
-	DrawImage(vg);
-	TransparentWidget::draw(vg);
+void BitMap::draw(const DrawArgs &args) {
+	DrawImage(args);
+	TransparentWidget::draw(args);
 }

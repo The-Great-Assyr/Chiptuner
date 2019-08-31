@@ -1,6 +1,6 @@
 #pragma once
 
-#include "rack0.hpp"
+#include "rack.hpp"
 
 using namespace rack;
 
@@ -32,8 +32,8 @@ struct BitMap : TransparentWidget {
 	std::string path;
 	int loaded = false;
 	std::shared_ptr<MFTexture> bitmap;
-	void DrawImage(NVGcontext *vg);
-	void draw(NVGcontext *vg) override;
+	void DrawImage(const DrawArgs &args);
+	void draw(const DrawArgs &args) override;
 	~BitMap() {
 		if (bitmap)
 			bitmap->release();
