@@ -3,7 +3,7 @@
 
 Friendly Greetings! This is my second attempt to make blank plates for VCV Rack! I have been inspired by [Omri Cohen](https://bit.ly/2P2watb) so a big thank go to him!
 
-First of all, a huge thanks to [David O'Rourke](https://github.com/david-c14) who migrate the plugin from VCV 0.6.2c to VCV 1.1.4! It would be impossible without his help to have this new version!
+**First of all, a huge thanks to [David O'Rourke](https://github.com/david-c14) who migrate the plugin from VCV 0.6.2c to VCV 1.1.4! It would be impossible without his help to have this new version!**
 
 The technical part (coding, understanding how stuffs work) is given by [David O'Rourke](https://github.com/david-c14), [Clement Foulc](https://github.com/cfoulc/cf) and [VCV Rack](https://github.com/VCVRack/Rack) since I've mostly "steal" all the informations from them! 1024 thanks to [Nik Jewell](https://github.com/lnikj) for providing the Mac version of the plugin and to him and Jeff Orgill for proving me that the source code works properly both on Win & on Mac (I have good chances that it will work on Nix systems as well, at this point)!
 
