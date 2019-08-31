@@ -19,7 +19,7 @@ void MFTexture::release() {
 	if (image)
 		nvgDeleteImage(context, image);
 	image = 0;
-	debug("Image Released %s", name.c_str());
+	DEBUG("Image Released %s", name.c_str());
 }
 
 std::shared_ptr<MFTexture> MFTextureList::load(NVGcontext *vg, std::string fileName, int imageFlags) {
@@ -35,7 +35,7 @@ std::shared_ptr<MFTexture> MFTextureList::load(NVGcontext *vg, std::string fileN
 	}
 	std::shared_ptr<MFTexture> tex = std::make_shared<MFTexture>(vg, fileName, imageFlags);
 	list.push_back(tex);
-	debug("Image loaded %s", fileName.c_str());
+	DEBUG("Image loaded %s", fileName.c_str());
 	return tex;
 }
 
@@ -46,7 +46,7 @@ void BitMap::DrawImage(const DrawArgs &args) {
 		loaded = true;
 		bitmap = gTextureList.load(args.vg, path, 0);
 		if (!bitmap->image)
-			warn("ChipTuner: Unable to load %s", path.c_str());
+			WARN("ChipTuner: Unable to load %s", path.c_str());
 	}
 	if (!bitmap->image)
 		return;	
