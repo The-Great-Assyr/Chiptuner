@@ -5,7 +5,9 @@ Friendly Greetings! This is my second attempt to make blank plates for VCV Rack!
 
 **First of all, a huge thanks to [David O'Rourke](https://github.com/david-c14) who migrate the plugin from VCV 0.6.2c to VCV 1.1.4! It would be impossible without his help to have this new version!**
 
-The technical part (coding, understanding how stuffs work) is given by [David O'Rourke](https://github.com/david-c14), [Clement Foulc](https://github.com/cfoulc/cf) and [VCV Rack](https://github.com/VCVRack/Rack) since I've mostly "steal" all the informations from them! 1024 thanks to [Nik Jewell](https://github.com/lnikj) for providing the Mac version of the plugin and to him and Jeff Orgill for proving me that the source code works properly both on Win & on Mac (I have good chances that it will work on Nix systems as well, at this point)!
+The technical part (coding, understanding how stuffs work) is given by [David O'Rourke](https://github.com/david-c14), [Clement Foulc](https://github.com/cfoulc/cf) and [VCV Rack](https://github.com/VCVRack/Rack) since I've mostly "steal" all the informations from them! 
+
+1024 thanks to [Nik Jewell](https://github.com/lnikj) ~~for providing the Mac version of the plugin and to him and Jeff Orgill for proving me that the source code works properly both on Win & on Mac (I have good chances that it will work on Nix systems as well, at this point)!~~ I am not sure about the Mac version, despite the good effort of Nick. The source code works 100% for Nix and Win systems so it is legit to think that it should work for Mac as well. Please, feel free to correct me eventually. The Mac version is still [downloadable for VCV 0.6.2c](https://github.com/The-Great-Assyr/Chiptuner-1.0/releases).
 
 The fonts I have used are all free and freely downloadable from these sites (or from my repo):
 
@@ -19,7 +21,7 @@ The fonts I have used are all free and freely downloadable from these sites (or 
 
 Ditto for the pictures I have used in my plates.
 
-Chiptuner-0.6.2 **2019 Seamless Edition** is available for free. Feel free to download it, use it, redistribute it as you will.
+Chiptuner-1.0 **2019 Seamless Edition** is available for free. Feel free to download it, use it, redistribute it as you will.
 If you are thinking to earn some money from it, please at least drop me a message and say "thank you"! I'd appreciate it!
 
 I made some correction in the PNGs files, added the 2HP panel and added a whole new series of panels you can find under the menu "Extreme" when you rightclick on panel: basically there are 3 choiches now, BASE, ALTERNATIVE and EXTREME (the first row of panels is the base one, the second row are the alternative, the third one are the extreme).
