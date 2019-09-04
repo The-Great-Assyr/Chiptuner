@@ -4,11 +4,11 @@
 	"author": "Andrea Grossi",
 	"brand": "TGA",
 	"license": "MIT",
-	"authorUrl": "https://github.com/The-Great-Assyr/Chiptuner-0.6.2",
+	"authorUrl": "https://github.com/The-Great-Assyr/Chiptuner-1.0",
 	"authorEmail": "andreagrossi.69@gmail.com",
-	"pluginUrl": "https://github.com/The-Great-Assyr/Chiptuner-0.6.2",
-	"sourceUrl": "https://github.com/The-Great-Assyr/Chiptuner-0.6.2",
-	"manualUrl": "https://github.com/The-Great-Assyr/Chiptuner-0.6.2/blob/master/README.md",
+	"pluginUrl": "https://github.com/The-Great-Assyr/Chiptuner-1.0",
+	"sourceUrl": "https://github.com/The-Great-Assyr/Chiptuner-1.0
+	"manualUrl": "https://github.com/The-Great-Assyr/Chiptuner-1.0/blob/master/README.md",
 	"version": "1.0.0",
 	"modules": [
 		{
