@@ -1,4 +1,4 @@
-# Chiptuner-1.0.0
+# Chiptuner
 ![](infos/Chiptuner-062.jpg)
 
 Friendly Greetings! This is my second attempt to make blank plates for VCV Rack! I have been inspired by [Omri Cohen](https://bit.ly/2P2watb) so a big thank go to him!
