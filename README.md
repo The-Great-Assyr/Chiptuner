@@ -5,7 +5,7 @@ Friendly Greetings! This is my second attempt to make blank plates for VCV Rack!
 
 **First of all, a huge thanks to [David O'Rourke](https://github.com/david-c14) who migrate the plugin from VCV 0.6.2c to VCV 1.1.4! It would be impossible without his help to have this new version!**
 
-The technical part (coding, understanding how stuffs work) is given by [David O'Rourke](https://github.com/david-c14), [Clement Foulc](https://github.com/cfoulc/cf) and [VCV Rack](https://github.com/VCVRack/Rack) since I've mostly "steal" all the informations from them! 
+The technical part (coding, understanding how stuffs work) is given by [David O'Rourke](https://github.com/david-c14), [Clement Foulc](https://github.com/cfoulc/cf) and [VCV Rack](https://github.com/VCVRack/Rack) since I've mostly "steal" all the informations from them! Also, thanks to [Andrew Belt](https://github.com/AndrewBelt) for pointing me out the [DRY Principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) that helped me out refining the last bits of my GitHub.
 
 1024 thanks to [Nik Jewell](https://github.com/lnikj) ~~for providing the Mac version of the plugin and to him and Jeff Orgill for proving me that the source code works properly both on Win & on Mac (I have good chances that it will work on Nix systems as well, at this point)!~~ I am not sure about the Mac version, despite the good effort of Nick. The source code works 100% for Nix and Win systems so it is legit to think that it should work for Mac as well. Please, feel free to correct me eventually. The Mac version is still [downloadable for VCV 0.6.2c](https://github.com/The-Great-Assyr/Chiptuner-1.0/releases).
 
