@@ -21,7 +21,7 @@ The fonts I have used are all free and freely downloadable from these sites (or 
 
 Ditto for the pictures I have used in my plates.
 
-Chiptuner-1.0 **2019 Seamless Edition** is available for free. Feel free to download it, use it, redistribute it as you will.
+Chiptuner **2019 Seamless Edition** is available for free. Feel free to download it, use it, redistribute it as you will.
 If you are thinking to earn some money from it, please at least drop me a message and say "thank you"! I'd appreciate it!
 
 I made some correction in the PNGs files, added the 2HP panel and added a whole new series of panels you can find under the menu "Extreme" when you rightclick on panel: basically there are 3 choiches now, BASE, ALTERNATIVE and EXTREME (the first row of panels is the base one, the second row are the alternative, the third one are the extreme).
