@@ -16,9 +16,6 @@ struct MFTexture {
 	}
 	void reload(NVGcontext *vg, std::string fileName, int imageFlags);
 	void release();
-	~MFTexture() {
-		release();
-	}
 };
 
 struct MFTextureList {
@@ -34,8 +31,4 @@ struct BitMap : TransparentWidget {
 	std::shared_ptr<MFTexture> bitmap;
 	void DrawImage(const DrawArgs &args);
 	void draw(const DrawArgs &args) override;
-	~BitMap() {
-		if (bitmap)
-			bitmap->release();
-	}
 };
