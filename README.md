@@ -1,4 +1,4 @@
-# Chiptuner
+# Chiptuner 2.0
 ![](infos/Chiptuner-062.jpg)
 
 Friendly Greetings! This is my second attempt to make blank plates for VCV Rack! I have been inspired by [Omri Cohen](https://bit.ly/2P2watb) so a big thank go to him!
@@ -40,6 +40,7 @@ So far (August 2019) I still haven't figured out how to compile for Mac or GNU/L
 1) explain me how to share your file here (you know... *Issues* and/or *pull requests* and stuffs like those...)
 2) send me your zip file so that I can slap it here (with the dued credits, of course!)
 
-That's totally appreciated! Thanks in advance!
+# BIG NEWS!!! 30th July 2023!!!
+Thanks to the willing and generous contribution from [Steve Russell](https://github.com/SteveRussell33), [Evan Murray](https://github.com/emurray2) and @pachde , @baconpaul , @Jens.Peter.Nielsen , @Ahornberg , @cschol , @Yeager from [VCV Rack formum](https://community.vcvrack.com/t/who-wants-to-upgrade-my-modules/19986), here it is the new 2.0 version of my blank panels! Thank you everyone from the bottom of my 8 bit earth!
 
 Have fun and keep twisting those knobs! :-P
